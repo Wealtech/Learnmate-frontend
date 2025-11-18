@@ -135,3 +135,24 @@ export {
   DialogTitle,
   DialogTrigger,
 }
+
+export function ConfirmDeleteDialog({ onConfirm }) {
+  return (
+    <Dialog>
+      <DialogTrigger>
+        Open
+      </DialogTrigger>
+
+      <DialogContent>
+        <DialogHeader>Are you sure?</DialogHeader>
+
+        <DialogFooter>
+          <button onClick={onConfirm} className="text-red-600">
+            Delete
+          </button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+}
+

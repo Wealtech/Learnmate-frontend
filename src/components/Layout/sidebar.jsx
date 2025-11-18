@@ -45,8 +45,8 @@ import logo from '../../assets/images/logo.png';
 
 const navItems = [
     { title: 'Home', href: '/dashboard', icon: 'dashboard', label: 'Dashboard' },
-    { title: 'My Courses', href: '/dashboard/my-courses', icon: 'book', label: 'book' },
-    { title: 'Recommendations', href: '/dashboard/recommendations', icon: 'Calendar', label: 'Calendar' },
+    { title: 'Upload Materials', href: '/dashboard/upload-materials', icon: 'book', label: 'upload' },
+    { title: 'Manage Materials', href: '/dashboard/manage-materials', icon: 'Calendar', label: 'file' },
 ]
 
 const Sidebar = ({ className }) => {
@@ -74,11 +74,11 @@ const Sidebar = ({ className }) => {
       )}
     >
       {/* Logo section */}
-      {/* <div className="hidden p-5 pt-10 lg:block ">
+      <div className="hidden p-5 pt-10 lg:block ">
         <Link href={'/'}>
           <Image src='/logo.png' width={100} height={100} className=' object-contain' alt='logo' />
         </Link>
-      </div> */}
+      </div>
 
       {/* Toggle button */}
       <ChevronLeft

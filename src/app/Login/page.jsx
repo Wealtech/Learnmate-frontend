@@ -16,7 +16,7 @@ const page = () => {
       <div className=' items-end bg-login h-[92vh] w-[65%] bg-cover bg-center rounded-lg shadow-lg lg:flex hidden'>
         <div className='flex flex-col gap-3 p-4 bg-gray-10 w-full backdrop-blur-md rounded-lg'>
           <h1 className='text-white font-semibold text-4xl'>Welcome Back to LearnMate.</h1>
-          <p className='text-xl font-light text-gray-400'>Continue learning with your <br /> personalized course recommendations</p>
+          <p className='text-xl font-light text-gray-400'>Access your dashboard to upload and manage course materials for students.</p>
         </div>
       </div>
       <div className='flex flex-col gap-2 bg-white p-4 pb-2 rounded-lg shadow-lg lg:w-[30%] w-full h-[85vh] transform lg:-translate-x-20'>
@@ -34,8 +34,8 @@ const page = () => {
           <div className='self-end text-sm text-gray-500'>
             <Link href='/ForgotPassword'>Forgot Password ?</Link>
           </div>
-          <Link href='/onboarding' className='w-full'>
-            <Button className='cursor-pointer bg-[#145DA0] w-full'>CONTINUE</Button>
+          <Link href='/dashboard' className='w-full'>
+            <Button className='cursor-pointer bg-[#145DA0] w-full'>Login to Dashboard</Button>
           </Link>
         </div>
         <div className='flex w-full items-center gap-2 justify-center'>

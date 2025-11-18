@@ -16,7 +16,7 @@ const page = () => {
       <div className=' items-end bg-login h-[92vh] w-[65%] bg-cover bg-center rounded-lg shadow-lg lg:flex hidden'>
         <div className='flex flex-col gap-3 p-4 bg-gray-10 w-full backdrop-blur-md rounded-lg'>
           <h1 className='text-white font-semibold text-4xl'>Create Your LearnMate Account</h1>
-          <p className='text-xl font-light text-gray-400'>Access course materials tailored to your academic level.</p>
+          <p className='text-xl font-light text-gray-400'>Join LearnMate as a verified lecturer or course coordinator to upload, manage, and monitor course materials for students.</p>
         </div>
       </div>
       <div className='flex flex-col gap-2 bg-white p-4 pb-2 rounded-lg shadow-lg lg:w-[30%] w-full h-[85vh] transform lg:-translate-x-20'>
@@ -35,8 +35,8 @@ const page = () => {
             <Label htmlFor='password' className='text-gray-500 font-semibold'>Password</Label>
             <Input id='password' type='text' placeholder='*********' className='border-gray-300 focus:border-blue-500 focus:ring-blue-500' />
           </div>
-          <Link href='/login' className='w-full'>
-            <Button className='cursor-pointer bg-[#2563EB] w-full'>GET STARTED</Button>
+          <Link href='/dashboard' className='w-full'>
+            <Button className='cursor-pointer bg-[#2563EB] w-full'>Create Admin Account</Button>
           </Link>
         </div>
         <div className='flex w-full items-center gap-2 justify-center'>
